@@ -1457,6 +1457,67 @@
             "scaleImage"    "1"
         }           
     }
+	"MutePlayersButton"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "MutePlayersButton"
+        "xpos"          "300"
+        "ypos"          "r92"
+        "zpos"          "11"
+        "wide"          "30"
+        "tall"          "50"
+        "visible"       "1"
+        "PaintBackgroundType"   "2"
+
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "30"
+            "tall"          "50"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+            "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "0"
+            "use_proportional_insets" "1"
+            "font"          "Symbols"
+            "textAlignment" "center"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            "sound_depressed"   "UI/buttonclick.wav"
+            "sound_released"    "UI/buttonclickrelease.wav"
+            
+            "border_default"    ""
+            "border_armed"      ""
+            "paintbackground"   "0"
+            
+            "FgColor"  "227 227 227 255"
+            "defaultFgColor_override"  "227 227 227 255"
+            "armedFgColor_override"   "Flavor"
+            "depressedFgColor_override" "227 227 227 255"
+            
+            "image_drawcolor"   "0 0 0 0"
+            "image_armedcolor" "74 74 74 255" //    "255 255 255 255"
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "0"
+                "ypos"          "0"
+                "zpos"          "2"
+                "wide"          "30"
+                "tall"          "30"
+                "visible"       "1"
+                "enabled"       "1"
+                "scaleImage"    "1"
+            }       
+        }
+    }
 	
 	"PlayLabel"
 	{
