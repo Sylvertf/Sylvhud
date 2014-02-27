@@ -80,7 +80,7 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "classmodelpanelBG"
-        "xpos"          "c-355" 
+        "xpos"          "70" 
         "ypos"          "r40"
         "zpos"          "1"     
         "wide"          "105"
